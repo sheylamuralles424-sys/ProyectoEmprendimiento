@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>inicio</title>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tecno cell</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu de opciones</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ofertas.html">Ofertas</a>
+            </li>
+            <a class="nav-link" href="ubicacion.html">ubicacion</a>
+            </li>
+            <a class="nav-link" href="videos.html">videos</a>
+            </li>
+            <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--menu-->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="carusel/1.png" class="d-block w-100" alt="logo 1">
+      </div>
+      <div class="carousel-item">
+        <img src="carusel/2.png" class="d-block w-100" alt="logo 2">
+      </div>
+      <div class="carousel-item">
+        <img src="carusel/3.png" class="d-block w-100" alt="logo 3">
+      </div>
+      <div class="carousel-item">
+        <img src="carusel/4.png" class="d-block w-100" alt="logo 4">
+      </div>
+      <div class="carousel-item">
+        <img src="carusel/5.png" class="d-block w-100" alt="logo 5">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <!--tarjeta-->
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="tarjeta 1">
+        <img src="tarjetas/1.png" class="card-img-top" alt="taejeta 1">
+        <div class="card-body">
+          <h5 class="card-title">Promociones</h5>
+          <p class="card-text">No te pierdas de nuestras grandes ofertas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="tarjeta 2">
+        <img src="tarjetas/2.png" class="card-img-top" alt="tarjeta 2">
+        <div class="card-body">
+          <h5 class="card-title">Las sorpresas que les preparamos</h5>
+          <p class="card-text">Habran muchas sorpresas para ti y toda tu familia te esperamos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="tarjeta 3">
+        <img src="tarjetas/3.png" class="card-img-top" alt="tarjeta 3">
+        <div class="card-body">
+          <h5 class="card-title">Las grandes ofertas comiensan</h5>
+          <p class="card-text">Las ofertas comiensan desde el 12-18 de Abril no lo pierdas y ven a visitarnos</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="tarjeta 4">
+        <img src="tarjetas/4.png" class="card-img-top" alt="tarjeta 4">
+        <div class="card-body">
+          <h5 class="card-title">Te esperamos en nuestras instalaciones</h5>
+          <p class="card-text">No te quedes sin tu movil te puedes llevar 2 en 1.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
